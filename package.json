@@ -1,0 +1,14 @@
+{
+  "version": "9.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "update:version": "lerna version --no-push"
+  },
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
